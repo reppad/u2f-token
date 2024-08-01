@@ -50,7 +50,7 @@ uvoid (void *arg)
   for (i = 0; i < 100; i++)
     chopstx_usec_wait (100*1000);
 
-  touch = 0;
+  //touch = 0;
 
   while (1)
     chopstx_usec_wait (100*1000);
@@ -67,7 +67,7 @@ user_presence_get (void)
 void
 user_presence_reset (void)
 {
-  touch = 0;
+  //touch = 0;
 }
 
 void
